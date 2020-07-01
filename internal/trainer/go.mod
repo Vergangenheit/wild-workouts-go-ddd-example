@@ -3,16 +3,19 @@ module github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainer
 go 1.23
 
 require (
-	cloud.google.com/go/firestore v1.17.0
+	cloud.google.com/go/firestore v1.2.0
 	github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common v0.0.0-00010101000000-000000000000
-	github.com/deepmap/oapi-codegen v1.9.0
+	github.com/deepmap/oapi-codegen v1.3.6
 	github.com/go-chi/chi v4.1.0+incompatible
 	github.com/go-chi/render v1.0.1
-	github.com/golang/protobuf v1.5.4
+	github.com/golang/protobuf v1.3.5
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.5.0
-	google.golang.org/api v0.196.0
-	google.golang.org/grpc v1.66.0
+	github.com/stretchr/testify v1.4.0
+	golang.org/x/sys v0.0.0-20200331124033-c3d80250170d // indirect
+	google.golang.org/api v0.21.0
+	google.golang.org/genproto v0.0.0-20200403120447-c50568487044 // indirect
+	google.golang.org/grpc v1.28.0
 )
 
 require (

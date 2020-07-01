@@ -1,5 +1,7 @@
 # Wild Workouts
 
+*The idea for this series, is to apply DDD by refactoring. This process is in progress! Please check articles, to know the current progress.*
+
 Wild Workouts is an example project that we created to show how to build Go applications that are **easy to develop, maintain, and fun to work with, especially in the long term!**
 
 No application is perfect from the beginning. With over a dozen coming articles, we will uncover what issues you can find in the current implementation. We will also show how to fix these issues and achieve clean implementation by refactoring.
@@ -7,7 +9,12 @@ No application is perfect from the beginning. With over a dozen coming articles,
 ### Articles
 
 1. [**Too modern Go application? Building a serverless application with Google Cloud Run and Firebase**](https://threedots.tech/post/serverless-cloud-run-firebase-modern-go-application/?utm_source=github.com)
-2. *More articles are on the way!*
+2. [**A complete Terraform setup of a serverless application on Google Cloud Run and Firebase**](https://threedots.tech/post/complete-setup-of-serverless-application/?utm_source=github.com)
+3. [**Robust gRPC communication on Google Cloud Run (but not only!)**](https://threedots.tech/post/robust-grpc-google-cloud-run/?utm_source=github.com)
+4. [**You should not build your own authentication. Let Firebase do it for you.**](https://threedots.tech/post/firebase-cloud-run-authentication/?utm_source=github.com)
+5. [**Business Applications in Go: Things to know about DRY**](https://threedots.tech/post/things-to-know-about-dry/?utm_source=github.com)
+6. [**When microservices in Go are not enough: introduction to DDD Lite**](https://threedots.tech/post/ddd-lite-in-go-introduction/?utm_source=github.com)
+7. *More articles are on the way!*
 
 ### Directories
 
