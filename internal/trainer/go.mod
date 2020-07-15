@@ -8,10 +8,13 @@ require (
 	github.com/deepmap/oapi-codegen v1.3.6
 	github.com/go-chi/chi v4.1.0+incompatible
 	github.com/go-chi/render v1.0.1
+	github.com/go-sql-driver/mysql v1.4.0
 	github.com/golang/protobuf v1.5.4
+	github.com/jmoiron/sqlx v1.2.0
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.5.0
 	github.com/stretchr/testify v1.9.0
+	go.uber.org/multierr v1.1.0
 	golang.org/x/sys v0.24.0 // indirect
 	google.golang.org/api v0.196.0
 	google.golang.org/genproto v0.0.0-20240903143218-8af14fe29dc1 // indirect
@@ -56,6 +59,7 @@ require (
 	go.opentelemetry.io/otel v1.29.0 // indirect
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
+	go.uber.org/atomic v1.4.0 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect

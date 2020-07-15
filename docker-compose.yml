@@ -109,3 +109,13 @@ services:
       - 8787:8787 # Cloud Firestore
       - 8085:8085 # Cloud Pub/Sub
     restart: unless-stopped
+
+  mysql:
+    image: mysql:8
+    env_file:
+      - .env
+    volumes:
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    ports:
+      - "127.0.0.1:3306:3306"
+    restart: unless-stopped
