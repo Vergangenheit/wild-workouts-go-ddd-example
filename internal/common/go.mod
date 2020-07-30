@@ -3,7 +3,7 @@ module github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common
 go 1.23
 
 require (
-	cloud.google.com/go/compute/metadata v0.5.0
+	cloud.google.com/go v0.38.0
 	firebase.google.com/go v3.12.0+incompatible
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-chi/chi v4.1.0+incompatible
