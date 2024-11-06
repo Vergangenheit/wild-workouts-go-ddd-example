@@ -3,7 +3,7 @@ package httperr
 import (
 	"net/http"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/logs"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/logs"
 	"github.com/go-chi/render"
 )
 

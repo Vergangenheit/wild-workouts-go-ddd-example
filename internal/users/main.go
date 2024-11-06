@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"cloud.google.com/go/firestore"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/genproto/users"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/logs"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/server"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/genproto/users"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/logs"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/server"
 	"github.com/go-chi/chi"
 	"google.golang.org/grpc"
 )

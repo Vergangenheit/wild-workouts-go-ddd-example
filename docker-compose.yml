@@ -90,9 +90,21 @@ services:
       - firestore
 
   firestore:
-    image: karhoo/firestore-emulator:0.2.2
+    # image: karhoo/firestore-emulator:0.2.2
+    build: 
+      context: docker/firebase
+      dockerfile: firebase.dockerfile
+    volumes:
+      - ./firebase/emulators/:/opt/workspace:cached
+      - ./firebase/bin/:/root/.cache:cached
+      - ./firebase/config/:/root/.config:cached
     env_file:
       - .env
     ports:
-      - "127.0.0.1:8787:8787"
+      - 4000:4000 # Emulator Suite UI
+      - 5000:5000 # Firebase Hosting
+      - 5001:5001 # Clound Functions
+      - 9000:9000 # Realtime Database
+      - 8787:8787 # Cloud Firestore
+      - 8085:8085 # Cloud Pub/Sub
     restart: unless-stopped

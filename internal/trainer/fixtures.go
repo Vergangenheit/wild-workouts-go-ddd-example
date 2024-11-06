@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/client"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/genproto/trainer"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/client"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/genproto/trainer"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

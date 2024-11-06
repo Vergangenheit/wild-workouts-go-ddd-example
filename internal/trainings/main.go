@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"cloud.google.com/go/firestore"
-	grpcClient "github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/client"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/logs"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/server"
+	grpcClient "github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/client"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/logs"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/server"
 	"github.com/go-chi/chi"
 )
 

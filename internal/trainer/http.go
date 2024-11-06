@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/auth"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/server/httperr"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/auth"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/server/httperr"
 	"github.com/go-chi/render"
 )
 

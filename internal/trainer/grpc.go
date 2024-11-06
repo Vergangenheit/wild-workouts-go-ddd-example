@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/genproto/trainer"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/genproto/trainer"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"google.golang.org/grpc/codes"

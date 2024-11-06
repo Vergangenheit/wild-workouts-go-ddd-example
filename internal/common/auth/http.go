@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"firebase.google.com/go/auth"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/server/httperr"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/server/httperr"
 	"github.com/pkg/errors"
 )
 
