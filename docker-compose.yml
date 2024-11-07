@@ -25,7 +25,7 @@ services:
     environment:
       SERVER_TO_RUN: http
     depends_on:
-      - firestore
+      - firebase
 
   trainer-grpc:
     build:
@@ -41,7 +41,7 @@ services:
     environment:
       SERVER_TO_RUN: grpc
     depends_on:
-      - firestore
+      - firebase
 
   trainings-http:
     build:
@@ -55,7 +55,7 @@ services:
     env_file:
       - .env
     depends_on:
-      - firestore
+      - firebase
 
   users-http:
     build:
@@ -71,7 +71,7 @@ services:
     env_file:
       - .env
     depends_on:
-      - firestore
+      - firebase
 
   users-grpc:
     build:
@@ -87,23 +87,24 @@ services:
     env_file:
       - .env
     depends_on:
-      - firestore
+      - firebase
 
-  firestore:
+  firebase:
     # image: karhoo/firestore-emulator:0.2.2
     build: 
       context: docker/firebase
       dockerfile: firebase.dockerfile
+    container_name: firebase-emulator
     volumes:
       - ./firebase/emulators/:/opt/workspace:cached
       - ./firebase/bin/:/root/.cache:cached
       - ./firebase/config/:/root/.config:cached
-    env_file:
-      - .env
+    ## env_file:
+    ##  - .env
     ports:
       - 4000:4000 # Emulator Suite UI
-      - 5000:5000 # Firebase Hosting
-      - 5001:5001 # Clound Functions
+      - 5000:5000 # Firebase Auth
+      ## - 5001:5001 # Clound Functions
       - 9000:9000 # Realtime Database
       - 8787:8787 # Cloud Firestore
       - 8085:8085 # Cloud Pub/Sub

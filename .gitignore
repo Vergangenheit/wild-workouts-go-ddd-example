@@ -31,3 +31,6 @@ terraform/cloud-builders-community
 .vscode
 .go
 .go-cache
+
+firebase/bin
+firebase/config
