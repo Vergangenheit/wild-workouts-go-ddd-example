@@ -34,3 +34,5 @@ terraform/cloud-builders-community
 
 firebase/bin
 firebase/config
+
+node_modules
