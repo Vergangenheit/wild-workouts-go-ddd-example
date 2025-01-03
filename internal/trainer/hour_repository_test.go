@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/firestore"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainer"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainer/domain/hour"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainer"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainer/domain/hour"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -64,7 +64,7 @@ func TestFirestoreHourRepository(t *testing.T) {
 	}
 }
 
-//TestNewFirestoreHourRepository_update_existing is testing path of creating a new hour and updating this hour.
+// TestNewFirestoreHourRepository_update_existing is testing path of creating a new hour and updating this hour.
 func TestNewFirestoreHourRepository_update_existing(t *testing.T) {
 	ctx := context.Background()
 	repo := newFirebaseRepository(t, ctx)
