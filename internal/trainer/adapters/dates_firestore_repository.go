@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainer/app"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainer/app"
 
 	"cloud.google.com/go/firestore"
 	"google.golang.org/api/iterator"

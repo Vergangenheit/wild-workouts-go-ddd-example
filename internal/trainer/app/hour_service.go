@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/errors"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainer/domain/hour"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/errors"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainer/domain/hour"
 )
 
 type HourService struct {
