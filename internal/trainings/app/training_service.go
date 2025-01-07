@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/auth"
-	commonerrors "github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/errors"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/auth"
+	commonerrors "github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/errors"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 )

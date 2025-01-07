@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/firestore"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/auth"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainings/app"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/auth"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainings/app"
 	"github.com/pkg/errors"
 	"google.golang.org/api/iterator"
 )

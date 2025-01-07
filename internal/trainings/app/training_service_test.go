@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/auth"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainings/app"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/auth"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainings/app"
 	"github.com/stretchr/testify/require"
 )
 

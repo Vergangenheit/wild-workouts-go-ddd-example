@@ -4,9 +4,7 @@ go 1.23
 
 require (
 	cloud.google.com/go/firestore v1.17.0
-	github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common v0.0.0-20230710065318-56ef6d5daa2e
-	github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainings v0.0.0-20230710065318-56ef6d5daa2e
-	github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common v0.0.0-00010101000000-000000000000
+	github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common v0.0.0-20230710065318-56ef6d5daa2e
 	github.com/deepmap/oapi-codegen v1.9.0
 	github.com/go-chi/chi v4.1.0+incompatible
 	github.com/go-chi/render v1.0.1
@@ -26,11 +24,9 @@ require (
 	cloud.google.com/go/longrunning v0.6.0 // indirect
 	cloud.google.com/go/storage v1.43.0 // indirect
 	firebase.google.com/go v3.12.0+incompatible // indirect
-	firebase.google.com/go/v4 v4.7.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-chi/chi/v5 v5.0.5 // indirect
 	github.com/go-chi/cors v1.0.1 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -39,6 +35,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.3 // indirect
 	github.com/googleapis/gax-go/v2 v2.13.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0 // indirect
+	github.com/hpcloud/tail v1.0.0 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
@@ -66,6 +63,8 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1 // indirect
 	google.golang.org/grpc v1.66.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
+	gopkg.in/fsnotify.v1 v1.4.7 // indirect
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
