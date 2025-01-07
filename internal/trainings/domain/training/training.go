@@ -3,7 +3,7 @@ package training
 import (
 	"time"
 
-	commonerrors "github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/errors"
+	commonerrors "github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/errors"
 	"github.com/pkg/errors"
 )
 

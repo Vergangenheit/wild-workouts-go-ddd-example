@@ -3,7 +3,7 @@ package training
 import (
 	"fmt"
 
-	commonErrors "github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/errors"
+	commonErrors "github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/errors"
 	"github.com/pkg/errors"
 )
 
