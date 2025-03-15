@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/client/trainer"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/client/trainings"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/client/users"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/client/trainer"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/client/trainings"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/client/users"
 	"github.com/stretchr/testify/require"
 )
 

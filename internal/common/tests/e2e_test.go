@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/client"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/genproto/users"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/client"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/genproto/users"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 )

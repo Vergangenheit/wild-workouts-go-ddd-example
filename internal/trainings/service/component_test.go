@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/server"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/common/tests"
-	"github.com/ThreeDotsLabs/wild-workouts-go-ddd-example/internal/trainings/ports"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/server"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/common/tests"
+	"github.com/Vergangenheit/wild-workouts-go-ddd-example/internal/trainings/ports"
 	"github.com/go-chi/chi"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
